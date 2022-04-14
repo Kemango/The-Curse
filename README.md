@@ -26,3 +26,5 @@ As the player survies each waves, different mobs will start to spawn into the ga
 - Fire Ghost
   - It will try to burn the player, by flying straight at the player
   - It moves at a normal speed
+
+![fire-ghost-idle](https://user-images.githubusercontent.com/93504708/163426311-e577deb9-72d7-4b7c-96cb-3aec25246d34.gif)
