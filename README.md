@@ -22,6 +22,7 @@ As the player survies each waves, different mobs will start to spawn into the ga
   - It moves very slow 
 
 ![water-ghost-idle](https://user-images.githubusercontent.com/93504708/163418834-400d3980-296d-4f25-bce7-5716bcb5f61c.gif)
+![water-ghost-death](https://user-images.githubusercontent.com/93504708/163432620-b9f5b1be-66b4-4642-8de4-0c2bc0d9ef09.gif)
 
 - Fire Ghost
   - It will try to burn the player, by flying straight at the player
