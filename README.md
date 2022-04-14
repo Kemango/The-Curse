@@ -1,11 +1,11 @@
 # The-Curse
-Single player hack and slash games
+Single player hack and slash game
 - Objective
   - Survive as many waves as possible
-  - Getting hit or touching the mobs will damaged the player 
+  - Getting hit or touching the mobs will damage the player 
 
 # Potions 
-All potions will have a 10% drop rate after killing a mob
+All potions will have a 15% drop rate after killing a mob
 - Heal Potion => Heal Potion will restore 20 Hp 
 
 ![Health_potion](https://user-images.githubusercontent.com/93504708/163419131-343559ec-45cf-43ab-ac08-5b4dbb9efe58.gif)
@@ -15,7 +15,7 @@ All potions will have a 10% drop rate after killing a mob
 ![Mana_potion](https://user-images.githubusercontent.com/93504708/163419139-d39d9287-2a6a-459f-a393-eafa5de16910.gif)
 
 # Mobs
-Mobs will be spawned in each waves during the game. <br>
+Mobs will be spawned in different places each waves. <br>
 As the player survies each waves, different mobs will start to spawn into the game.
 - Water Ghost
   - It shoots water ball at the player
@@ -28,3 +28,4 @@ As the player survies each waves, different mobs will start to spawn into the ga
   - It moves at a normal speed
 
 ![fire-ghost-idle](https://user-images.githubusercontent.com/93504708/163426311-e577deb9-72d7-4b7c-96cb-3aec25246d34.gif)
+![fire-ghost-death](https://user-images.githubusercontent.com/93504708/163432149-782f9c7d-c3ea-4825-8116-c76213241b60.gif)
