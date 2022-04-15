@@ -42,3 +42,5 @@ As the player survives each wave, different mobs will start to spawn.
 - Knight Spirit
   - Walks directly to the player and deals 30 damage once it lands a heavy attack.
   - Very Slow Speed
+  
+![knight-spirit-idle](https://user-images.githubusercontent.com/93504708/163517094-69d188e0-53e6-44e9-a256-13774f489059.gif)
