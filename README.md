@@ -44,3 +44,4 @@ As the player survives each wave, different mobs will start to spawn.
   - Very Slow Speed
   
 ![knight-spirit-idle](https://user-images.githubusercontent.com/93504708/163517094-69d188e0-53e6-44e9-a256-13774f489059.gif)
+![knight-spirit-death](https://user-images.githubusercontent.com/93504708/163540575-38f33b2f-059f-42e7-88e4-23182f928551.gif)
