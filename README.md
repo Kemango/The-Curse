@@ -35,7 +35,7 @@ As the player survives each wave, different mobs will start to spawn.
   - Shoots three lightning ball at the player, dealing 10 damage per shot.
   - High Speed
 
-![lightning-ghost](https://user-images.githubusercontent.com/93504708/163507206-af819dbb-2685-407e-8ba4-21e7b1fbd47b.gif)
+![lightning-ghost](https://user-images.githubusercontent.com/93504708/163508518-3eb75a3e-d208-4221-9fd9-c7538263525a.gif)
 
 
 - Knight Spirit
