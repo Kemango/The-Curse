@@ -36,6 +36,7 @@ As the player survives each wave, different mobs will start to spawn.
   - High Speed
 
 ![lightning-ghost](https://user-images.githubusercontent.com/93504708/163508518-3eb75a3e-d208-4221-9fd9-c7538263525a.gif)
+![lightning-ghost-death](https://user-images.githubusercontent.com/93504708/163511277-7673e7c3-0c68-4233-bad0-12de2f406cb7.gif)
 
 
 - Knight Spirit
