@@ -6,13 +6,13 @@ Single player hack and slash game
 
 # Character
 Character will the controlled by player in the game <br>
-States
-- 100 HP
-- 100 MP
-- Basic Attack
-  - This attack deals 10 dmg 
-- "Sweeping Edge"
-  - This skill allows the character to throw a knife forward. Deals 20 dmg, Costs 20 MP
+- States
+  - 100 HP
+  - 100 MP
+  - Basic Attack
+    - This attack deals 10 dmg 
+  - "Bullseye"
+    - This skill allows the character to throw a knife forward. Deals 20 dmg, Costs 20 MP
    
 ![avatar1](https://user-images.githubusercontent.com/93504708/163570547-a019c19d-7bae-4390-907a-d9ace710ced8.gif)
 
