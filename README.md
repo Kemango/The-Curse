@@ -19,21 +19,21 @@ Mobs will be spawned in different places during each wave. <br>
 As the player survives each wave, different mobs will start to spawn.
 - Water Ghost
   - Shoots one water ball at the player, dealing 10 dmg per shot
-  - Slow speed 
+  - Slow speed, Low Hp
 
 ![water-ghost-idle](https://user-images.githubusercontent.com/93504708/163418834-400d3980-296d-4f25-bce7-5716bcb5f61c.gif)
 ![water-ghost-death](https://user-images.githubusercontent.com/93504708/163432620-b9f5b1be-66b4-4642-8de4-0c2bc0d9ef09.gif)
 
 - Fire Ghost
   - Flies directly to the player and deals 15 dmg once it touches the player
-  - Normal Speed
+  - Normal Speed, Low Hp
 
 ![fire-ghost-idle](https://user-images.githubusercontent.com/93504708/163426311-e577deb9-72d7-4b7c-96cb-3aec25246d34.gif)
 ![fire-ghost-death](https://user-images.githubusercontent.com/93504708/163432149-782f9c7d-c3ea-4825-8116-c76213241b60.gif)
 
 - Lightning Ghost
   - Shoots three lightning ball at the player, dealing 10 damage per shot.
-  - High Speed
+  - High Speed, Low Hp
 
 ![lightning-ghost](https://user-images.githubusercontent.com/93504708/163508518-3eb75a3e-d208-4221-9fd9-c7538263525a.gif)
 ![lightning-ghost-death](https://user-images.githubusercontent.com/93504708/163511277-7673e7c3-0c68-4233-bad0-12de2f406cb7.gif)
@@ -41,7 +41,7 @@ As the player survives each wave, different mobs will start to spawn.
 
 - Knight Spirit
   - Walks directly to the player and deals 30 damage once it lands a heavy attack.
-  - Very Slow Speed
+  - Very Slow Speed, High Hp
   
 ![knight-spirit-idle](https://user-images.githubusercontent.com/93504708/163541199-4b837828-8f46-448f-ac4f-30455c602d2e.gif)
 ![knight-spirit-death](https://user-images.githubusercontent.com/93504708/163541295-737a7ef4-9d68-42d4-831a-cd8bae7f7f24.gif)
