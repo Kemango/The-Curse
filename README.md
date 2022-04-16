@@ -15,6 +15,7 @@ Character will the controlled by player in the game <br>
     - This skill allows the character to throw a knife forward. Deals 20 dmg, Costs 20 MP
    
 ![avatar1](https://user-images.githubusercontent.com/93504708/163570547-a019c19d-7bae-4390-907a-d9ace710ced8.gif)
+![avatar1-death](https://user-images.githubusercontent.com/93504708/163679115-cc3d90c5-6df4-4dc6-a801-5dc559db01a4.gif)
 
 
 # Potions 
