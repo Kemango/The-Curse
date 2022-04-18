@@ -60,3 +60,5 @@ As the player survives each wave, different mobs will start to spawn.
 ![knight-spirit-idle](https://user-images.githubusercontent.com/93504708/163541199-4b837828-8f46-448f-ac4f-30455c602d2e.gif)
 ![knight-spirit-death](https://user-images.githubusercontent.com/93504708/163541295-737a7ef4-9d68-42d4-831a-cd8bae7f7f24.gif)
 
+# Map
+![The-Curse-bg](https://user-images.githubusercontent.com/93504708/163792021-82d8fed0-b577-4107-850c-434c7ed5a92a.png)
