@@ -1,4 +1,7 @@
 # The-Curse
+
+![TC_Poster_300](https://user-images.githubusercontent.com/93504708/164023512-70616db7-a586-4705-8d2d-f0951ad95f43.png)
+
 Single player hack and slash game
 - Rules
   - Survive as many waves as possible
@@ -60,5 +63,7 @@ As the player survives each wave, different mobs will start to spawn.
 ![knight-spirit-idle](https://user-images.githubusercontent.com/93504708/163541199-4b837828-8f46-448f-ac4f-30455c602d2e.gif)
 ![knight-spirit-death](https://user-images.githubusercontent.com/93504708/163541295-737a7ef4-9d68-42d4-831a-cd8bae7f7f24.gif)
 
-# Map
-![The-Curse-bg](https://user-images.githubusercontent.com/93504708/163792021-82d8fed0-b577-4107-850c-434c7ed5a92a.png)
+# Map (Official)
+![Background](https://user-images.githubusercontent.com/93504708/164023228-e97a305f-3f66-4019-9887-46af0c47f1be.png)
+
+
