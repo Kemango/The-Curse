@@ -1,6 +1,6 @@
 # The-Curse
 
-![TC_Poster](https://user-images.githubusercontent.com/93504708/164023270-cf89ca27-266e-4f5e-bcdf-7462ac1a9765.png)
+![TC_Poster_300](https://user-images.githubusercontent.com/93504708/164023512-70616db7-a586-4705-8d2d-f0951ad95f43.png)
 
 Single player hack and slash game
 - Rules
