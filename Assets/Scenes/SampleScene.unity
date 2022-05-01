@@ -810,8 +810,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  stoppingDistance: 1.5
-  retreatDistance: 1.5
+  stoppingDistance: 2
+  retreatDistance: 2
+  animator: {fileID: 958384153}
   startTimeBtwShots: 2
   projectile: {fileID: 9210438264063109971, guid: 62150b5383f422245974b3c5fd6db764, type: 3}
 --- !u!1 &996593470
