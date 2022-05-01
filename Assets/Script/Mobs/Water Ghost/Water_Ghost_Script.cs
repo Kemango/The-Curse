@@ -9,6 +9,8 @@ public class Water_Ghost_Script : MonoBehaviour
     public float stoppingDistance; // Higher the number the further the enemy will stop
     public float retreatDistance; // MOve away from player
 
+    public Animator animator;
+
     private float timeBtwShots;
     public float startTimeBtwShots;
     
@@ -28,18 +30,31 @@ public class Water_Ghost_Script : MonoBehaviour
     {
         if(Vector2.Distance(transform.position, player.position) > stoppingDistance){
             transform.position = Vector2.MoveTowards(transform.position, player.position, speed * Time.deltaTime);
+            float distance = Vector3.Distance(player.position, transform.position);
+            animator.SetFloat("Speed",distance);
+            animator.ResetTrigger("Attack"); 
         }
         else if (Vector2.Distance(transform.position, player.position) < stoppingDistance && Vector2.Distance(transform.position, player.position) > stoppingDistance){
     //    else if (Vector2.Distance(transform.position, player.position) < stoppingDistance){
             transform.position = this.transform.position;
+            float distance = Vector3.Distance(player.position, transform.position);
+            animator.SetFloat("Speed",distance);
         }
 
-        if(timeBtwShots <= 0){
+        if(timeBtwShots <= 0 && Vector2.Distance(transform.position, player.position) < stoppingDistance){
+            animator.SetTrigger("Attack");            
             Instantiate(projectile, transform.position, Quaternion.identity);
             timeBtwShots = startTimeBtwShots;
         } else {
             timeBtwShots -= Time.deltaTime;
         }
+
+        // if(timeBtwShots <= 0){
+        //     Instantiate(projectile, transform.position, Quaternion.identity);
+        //     timeBtwShots = startTimeBtwShots;
+        // } else {
+        //     timeBtwShots -= Time.deltaTime;
+        // }
 
     }
 }
