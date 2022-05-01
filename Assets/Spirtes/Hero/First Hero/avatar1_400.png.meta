@@ -1,0 +1,1359 @@
+fileFormatVersion: 2
+guid: 944a8291ba535b9419f6be26537fd0e1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4006182742421416799
+    second: avatar1_400_0
+  - first:
+      213: -8939821616534106384
+    second: avatar1_400_1
+  - first:
+      213: -8120578734056367863
+    second: avatar1_400_2
+  - first:
+      213: -3048711286184227586
+    second: avatar1_400_3
+  - first:
+      213: -5707801822598534533
+    second: avatar1_400_4
+  - first:
+      213: -7968394616115222862
+    second: avatar1_400_5
+  - first:
+      213: 38897372095460032
+    second: avatar1_400_6
+  - first:
+      213: -4892150398724836885
+    second: avatar1_400_7
+  - first:
+      213: -8478952889872147211
+    second: avatar1_400_8
+  - first:
+      213: 1471562301870264883
+    second: avatar1_400_9
+  - first:
+      213: -942680245621608572
+    second: avatar1_400_10
+  - first:
+      213: -133327807526917550
+    second: avatar1_400_11
+  - first:
+      213: 4329301400434830641
+    second: avatar1_400_12
+  - first:
+      213: 3796686707855642574
+    second: avatar1_400_13
+  - first:
+      213: -1499885027315593235
+    second: avatar1_400_14
+  - first:
+      213: -3063343839407868733
+    second: avatar1_400_15
+  - first:
+      213: -3402081178856678338
+    second: avatar1_400_16
+  - first:
+      213: -7275627754190857715
+    second: avatar1_400_17
+  - first:
+      213: -1983089289338921337
+    second: avatar1_400_18
+  - first:
+      213: -3091215277266361782
+    second: avatar1_400_19
+  - first:
+      213: 4411341864588239897
+    second: avatar1_400_20
+  - first:
+      213: -4054744282433455279
+    second: avatar1_400_21
+  - first:
+      213: -7858709176892869589
+    second: avatar1_400_22
+  - first:
+      213: -1890201580689768131
+    second: avatar1_400_23
+  - first:
+      213: -9212984284660445076
+    second: avatar1_400_24
+  - first:
+      213: -5670671347122387982
+    second: avatar1_400_25
+  - first:
+      213: -8704517164315175615
+    second: avatar1_400_26
+  - first:
+      213: 5207449376490336084
+    second: avatar1_400_27
+  - first:
+      213: 4535463473781943524
+    second: avatar1_400_28
+  - first:
+      213: 7053386185654553747
+    second: avatar1_400_29
+  - first:
+      213: 8860429792840125382
+    second: avatar1_400_30
+  - first:
+      213: -6622809514770574579
+    second: avatar1_400_31
+  - first:
+      213: -7519917970591999091
+    second: avatar1_400_32
+  - first:
+      213: 1803510657004112590
+    second: avatar1_400_33
+  - first:
+      213: -8366150071554601710
+    second: avatar1_400_34
+  - first:
+      213: 3841726061906669268
+    second: avatar1_400_35
+  - first:
+      213: -3183831498655197579
+    second: avatar1_400_36
+  - first:
+      213: 1840963446317663778
+    second: avatar1_400_37
+  - first:
+      213: 1487782903388037184
+    second: avatar1_400_38
+  - first:
+      213: 8972498416745322529
+    second: avatar1_400_39
+  - first:
+      213: -6575516332281178754
+    second: avatar1_400_40
+  - first:
+      213: 8367692904967351964
+    second: avatar1_400_41
+  - first:
+      213: -8947767226649461893
+    second: avatar1_400_42
+  - first:
+      213: 7074949935999042446
+    second: avatar1_400_43
+  - first:
+      213: 8826344587918042272
+    second: avatar1_400_44
+  - first:
+      213: -5904058172686900425
+    second: avatar1_400_45
+  - first:
+      213: -2260016952122015084
+    second: avatar1_400_46
+  - first:
+      213: 6414650396224257227
+    second: avatar1_400_47
+  - first:
+      213: 992020349271218081
+    second: avatar1_400_48
+  - first:
+      213: 4375221134503828319
+    second: avatar1_400_49
+  - first:
+      213: 3751467363356346096
+    second: avatar1_400_50
+  - first:
+      213: 5819496597632818593
+    second: avatar1_400_51
+  - first:
+      213: -3484079787435817892
+    second: avatar1_400_52
+  - first:
+      213: -5273157351368564756
+    second: avatar1_400_53
+  - first:
+      213: 1419459273644863020
+    second: avatar1_400_54
+  - first:
+      213: 1109844683129483268
+    second: avatar1_400_55
+  - first:
+      213: 7443852449355925961
+    second: avatar1_400_56
+  - first:
+      213: 4083122954754052591
+    second: avatar1_400_57
+  - first:
+      213: 5778918274450351295
+    second: avatar1_400_58
+  - first:
+      213: -5141529338879659404
+    second: avatar1_400_59
+  - first:
+      213: -172272133898646262
+    second: avatar1_400_60
+  - first:
+      213: 5245383847753440452
+    second: avatar1_400_61
+  - first:
+      213: -1119960844016794093
+    second: avatar1_400_62
+  - first:
+      213: -909027671733280531
+    second: avatar1_400_63
+  - first:
+      213: 4058912444062205329
+    second: avatar1_400_64
+  - first:
+      213: 3882620101094646679
+    second: avatar1_400_65
+  - first:
+      213: 7980474685542928513
+    second: avatar1_400_66
+  - first:
+      213: -1724651981570778927
+    second: avatar1_400_67
+  - first:
+      213: 8681329909308687352
+    second: avatar1_400_68
+  - first:
+      213: 4609378404077078887
+    second: avatar1_400_69
+  - first:
+      213: 4550182847931500807
+    second: avatar1_400_70
+  - first:
+      213: 881195248913966738
+    second: avatar1_400_71
+  - first:
+      213: -7107629307807633498
+    second: avatar1_400_72
+  - first:
+      213: -5096099275230253603
+    second: avatar1_400_73
+  - first:
+      213: -4103416073844252463
+    second: avatar1_400_74
+  - first:
+      213: -8342232217999529302
+    second: avatar1_400_75
+  - first:
+      213: 3196999761255486906
+    second: avatar1_400_76
+  - first:
+      213: -465194471996709626
+    second: avatar1_400_77
+  - first:
+      213: 7155785367028744587
+    second: avatar1_400_78
+  - first:
+      213: -4300691330135110065
+    second: avatar1_400_79
+  - first:
+      213: 8679523134879552421
+    second: avatar1_400_80
+  - first:
+      213: 7467360707549351389
+    second: avatar1_400_81
+  - first:
+      213: -5803626200577339911
+    second: avatar1_400_82
+  - first:
+      213: 1181255427699383434
+    second: avatar1_400_83
+  - first:
+      213: -3475688700446449432
+    second: avatar1_400_84
+  - first:
+      213: -1836279481495886649
+    second: avatar1_400_85
+  - first:
+      213: 493038724284806742
+    second: avatar1_400_86
+  - first:
+      213: -8127217829230682697
+    second: avatar1_400_87
+  - first:
+      213: 1915288415938516733
+    second: avatar1_400_88
+  - first:
+      213: -8503829275144806471
+    second: avatar1_400_89
+  - first:
+      213: -7474970575890245495
+    second: avatar1_400_90
+  - first:
+      213: 3348688765083250804
+    second: avatar1_400_91
+  - first:
+      213: 5768517414381510514
+    second: avatar1_400_92
+  - first:
+      213: 2267556499504934001
+    second: avatar1_400_93
+  - first:
+      213: -1884526926673917410
+    second: avatar1_400_94
+  - first:
+      213: 161744408019557914
+    second: avatar1_400_95
+  - first:
+      213: -8982612498747971141
+    second: avatar1_400_96
+  - first:
+      213: 137804581080921185
+    second: avatar1_400_97
+  - first:
+      213: -4537144281103110198
+    second: avatar1_400_98
+  - first:
+      213: -8211367990339200441
+    second: avatar1_400_99
+  - first:
+      213: -6354619307164389312
+    second: avatar1_400_100
+  - first:
+      213: 3694498887937820663
+    second: avatar1_400_101
+  - first:
+      213: 3895106719288452118
+    second: avatar1_400_102
+  - first:
+      213: -3840836575863001063
+    second: avatar1_400_103
+  - first:
+      213: 3190486495733282986
+    second: avatar1_400_104
+  - first:
+      213: 934473276248664438
+    second: avatar1_400_105
+  - first:
+      213: -9033648271393568088
+    second: avatar1_400_106
+  - first:
+      213: -3748807270702936520
+    second: avatar1_400_107
+  - first:
+      213: 2949599936804675753
+    second: avatar1_400_108
+  - first:
+      213: -5717117204885971916
+    second: avatar1_400_109
+  - first:
+      213: -497543361369959426
+    second: avatar1_400_110
+  - first:
+      213: -7236642831046132054
+    second: avatar1_400_111
+  - first:
+      213: -4605195104220922526
+    second: avatar1_400_112
+  - first:
+      213: 8875159851799674333
+    second: avatar1_400_113
+  - first:
+      213: -1274004062084406360
+    second: avatar1_400_114
+  - first:
+      213: 2375286510072970699
+    second: avatar1_400_115
+  - first:
+      213: -7239997407468576529
+    second: avatar1_400_116
+  - first:
+      213: -8717588942253543253
+    second: avatar1_400_117
+  - first:
+      213: 5351065819695461393
+    second: avatar1_400_118
+  - first:
+      213: -1805677883298333132
+    second: avatar1_400_119
+  - first:
+      213: 7637927742780811857
+    second: avatar1_400_120
+  - first:
+      213: -5112516067982611933
+    second: avatar1_400_121
+  - first:
+      213: 4173129950428609266
+    second: avatar1_400_122
+  - first:
+      213: -2453814167990128024
+    second: avatar1_400_123
+  - first:
+      213: -7290190421365946469
+    second: avatar1_400_124
+  - first:
+      213: 716628226295584079
+    second: avatar1_400_125
+  - first:
+      213: 8180564257192964109
+    second: avatar1_400_126
+  - first:
+      213: 2679974129742828033
+    second: avatar1_400_127
+  - first:
+      213: 7523833060725061788
+    second: avatar1_400_128
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 180
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: avatar1_400_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 1210
+        width: 132
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5b24538af1d89730800000000000000
+      internalID: 4006182742421416799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 1216
+        width: 112
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe402fda9f5fe380800000000000000
+      internalID: -8939821616534106384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_2
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 1216
+        width: 112
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9099af18aa8ed4f80800000000000000
+      internalID: -8120578734056367863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_3
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1216
+        width: 108
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efcc34cec3dc0b5d0800000000000000
+      internalID: -3048711286184227586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_4
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 1224
+        width: 108
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7aefabcb70d9c0b0800000000000000
+      internalID: -5707801822598534533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_5
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 1212
+        width: 108
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b62154a0539a6190800000000000000
+      internalID: -7968394616115222862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_6
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 968
+        width: 108
+        height: 140
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c2327e24f03a8000800000000000000
+      internalID: 38897372095460032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_7
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 980
+        width: 104
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be17830d1279b1cb0800000000000000
+      internalID: -4892150398724836885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_8
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 972
+        width: 108
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc16e32545b45a80800000000000000
+      internalID: -8478952889872147211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_9
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 976
+        width: 108
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33255dbed1a0c6410800000000000000
+      internalID: 1471562301870264883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_10
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 976
+        width: 108
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f22f6af4deae2f0800000000000000
+      internalID: -942680245621608572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_11
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 976
+        width: 120
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a2da1c013562ef0800000000000000
+      internalID: -133327807526917550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_12
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 731
+        width: 155
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13de482afa4c41c30800000000000000
+      internalID: 4329301400434830641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_14
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 736
+        width: 108
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def4deea3865f2be0800000000000000
+      internalID: -1499885027315593235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_15
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 736
+        width: 128
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c476332201dc75d0800000000000000
+      internalID: -3063343839407868733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_16
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 736
+        width: 144
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c943d513169c0d0800000000000000
+      internalID: -3402081178856678338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_17
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 736
+        width: 157
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a1b710b17c70b90800000000000000
+      internalID: -7275627754190857715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_19
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 733
+        width: 165
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a422742551cc915d0800000000000000
+      internalID: -3091215277266361782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_23
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 496
+        width: 108
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31ca155da7a4c5e0800000000000000
+      internalID: -1890201580689768131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_24
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 496
+        width: 112
+        height: 148
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60de870b97e42080800000000000000
+      internalID: -9212984284660445076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_25
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 496
+        width: 112
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f3c8cc447abd41b0800000000000000
+      internalID: -5670671347122387982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_26
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 492
+        width: 132
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14514bfe1c7533780800000000000000
+      internalID: -8704517164315175615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_27
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 520
+        width: 136
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45f298f1e93944840800000000000000
+      internalID: 5207449376490336084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_28
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 520
+        width: 136
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec288edff331fe30800000000000000
+      internalID: 4535463473781943524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_30
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 404
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb0687b3f196fa70800000000000000
+      internalID: 8860429792840125382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_36
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 280
+        width: 168
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57615f1ee12c0d3d0800000000000000
+      internalID: -3183831498655197579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_37
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 392
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2264e36208a6c8910800000000000000
+      internalID: 1840963446317663778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_41
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 280
+        width: 136
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ea226fc54002470800000000000000
+      internalID: 8367692904967351964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_43
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 279
+        width: 168
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8345ea6b754f2260800000000000000
+      internalID: 7074949935999042446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_44
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 260
+        width: 164
+        height: 120
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a4eb0483a97d7a70800000000000000
+      internalID: 8826344587918042272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_45
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73361cb7f52901ea0800000000000000
+      internalID: -5904058172686900425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_46
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 261
+        width: 170
+        height: 127
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492086e5e8ec2a0e0800000000000000
+      internalID: -2260016952122015084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_47
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 280
+        width: 136
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bccf3419c8a650950800000000000000
+      internalID: 6414650396224257227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_67
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 16
+        width: 149
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8dc4d092ec018e0800000000000000
+      internalID: -1724651981570778927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_76
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 10
+        width: 183
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab554ac28560e5c20800000000000000
+      internalID: 3196999761255486906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_84
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 15
+        width: 138
+        height: 102
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0ec0cba8fd3cfc0800000000000000
+      internalID: -3475688700446449432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_85
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 80
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c469156a893486e0800000000000000
+      internalID: -1836279481495886649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_95
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 29
+        width: 115
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1e5960aea1ae3200800000000000000
+      internalID: 161744408019557914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_99
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 68
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a91d7815c5b0e80800000000000000
+      internalID: -8211367990339200441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: avatar1_400_116
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 44
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe0261197bc568b90800000000000000
+      internalID: -7239997407468576529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
