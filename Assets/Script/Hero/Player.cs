@@ -8,17 +8,25 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
 
     public Hp healthBar;  
+    public Mp manaBar;  
 
     public int maxHealth = 100;
     public int currentHealth;
+
+    public int maxMana = 100;
+    public int currentMana;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
         currentHealth = maxHealth; 
         healthBar.SetMaxHealth(maxHealth);
+        currentMana = maxMana; 
+        manaBar.SetMaxMana(maxMana);
+
         animator.SetFloat("Hp",Mathf.Abs(currentHealth));
     }
 
