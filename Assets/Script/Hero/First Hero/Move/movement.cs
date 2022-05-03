@@ -22,6 +22,9 @@ public class movement : MonoBehaviour
     public int maxMana = 100;
     public int currentMana;
 
+    public GameObject knifePrefab;
+    public Transform firepoint;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -71,6 +74,7 @@ public class movement : MonoBehaviour
         manaBar.SetMana(currentMana);
         animator.SetFloat("Mp",Mathf.Abs(currentMana));
         animator.SetTrigger("Skill1");
+        Shoot_pro();
         }
     
         if (currentMana <= 0){
@@ -84,6 +88,10 @@ public class movement : MonoBehaviour
 
 	// }
 
+    void Shoot_pro()
+    {
+        Instantiate(knifePrefab, firepoint.position, firepoint.rotation);
+    }
 
     private void FixedUpdate()
     {
