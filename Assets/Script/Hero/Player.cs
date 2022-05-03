@@ -36,6 +36,11 @@ public class Player : MonoBehaviour
             TakeDamage(20);
         }
 
+        if(col.CompareTag("ghost")){
+            animator.SetTrigger("Damaged");
+            TakeDamage(20);
+        }
+
         if(currentHealth <= 0){
             Death();
         }
