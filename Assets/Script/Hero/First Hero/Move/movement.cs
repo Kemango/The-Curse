@@ -17,9 +17,17 @@ public class movement : MonoBehaviour
     [Range(1, 10)]
     public float jumpvelocity;
     // Start is called before the first frame update
+
+    public Mp manaBar;
+    public int maxMana = 100;
+    public int currentMana;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        currentMana = maxMana; 
+        manaBar.SetMaxMana(maxMana);
     }
 
     // Update is called once per frame
@@ -50,10 +58,25 @@ public class movement : MonoBehaviour
         }
     }
 
-    public void Attack_btn ()
+    public void Attack_btn ()        //Basic Attack Button
     {
         animator.SetTrigger("Attack");
         return;
+    }
+
+    public void Skill_btn ()        //Skill Button
+    {
+        if(currentMana>0){
+        currentMana -= 10;
+        manaBar.SetMana(currentMana);
+        animator.SetFloat("Mp",Mathf.Abs(currentMana));
+        animator.SetTrigger("Skill1");
+        }
+    
+        if (currentMana <= 0){
+            
+        }
+        
     }
     
     // void Fire ()
