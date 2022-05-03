@@ -815,6 +815,7 @@ MonoBehaviour:
   animator: {fileID: 958384153}
   startTimeBtwShots: 2
   projectile: {fileID: 9210438264063109971, guid: 62150b5383f422245974b3c5fd6db764, type: 3}
+  hero: {fileID: 1137853200}
 --- !u!1 &996593470
 GameObject:
   m_ObjectHideFlags: 0

@@ -17,6 +17,8 @@ public class Water_Ghost_Script : MonoBehaviour
     public GameObject projectile;
     private Transform player;
 
+    public Player hero;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,7 +43,9 @@ public class Water_Ghost_Script : MonoBehaviour
             animator.SetFloat("Speed",distance);
         }
 
-        if(timeBtwShots <= 0 && Vector2.Distance(transform.position, player.position) < stoppingDistance){
+// Emeny will shoot if the hero's Hp is more than 0
+// Ememy will shoot every few sec when it reaches the shooting range
+        if(timeBtwShots <= 0 && Vector2.Distance(transform.position, player.position) < stoppingDistance && hero.currentHealth > 0){
             animator.SetTrigger("Attack");            
             Instantiate(projectile, transform.position, Quaternion.identity);
             timeBtwShots = startTimeBtwShots;

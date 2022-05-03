@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
         animator = GetComponent<Animator>();
         currentHealth = maxHealth; 
         healthBar.SetMaxHealth(maxHealth);
-        // animator.SetFloat("Hp",Mathf.Abs(currentHealth));                    Not in used
+        animator.SetFloat("Hp",Mathf.Abs(currentHealth));
     }
 
     // Update is called once per frame
@@ -44,7 +44,7 @@ public class Player : MonoBehaviour
     void TakeDamage (int damage)
     {
         currentHealth -= damage;
-        // animator.SetFloat("Hp",Mathf.Abs(currentHealth));                   Not in used
+        animator.SetFloat("Hp",Mathf.Abs(currentHealth));
         healthBar.SetHealth(currentHealth);
     }
 
