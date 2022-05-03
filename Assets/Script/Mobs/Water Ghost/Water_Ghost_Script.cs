@@ -5,16 +5,19 @@ using UnityEngine;
 public class Water_Ghost_Script : MonoBehaviour
 {
 
+    public int health;
+    public GameObject deathEffect;
+
     public float speed; //How fast enemy moves
     public float stoppingDistance; // Higher the number the further the enemy will stop
     public float retreatDistance; // MOve away from player
 
     public Animator animator;
 
-    private float timeBtwShots;
+    private float timeBtwShots;         //Shooting machanic
     public float startTimeBtwShots;
     
-    public GameObject projectile;
+    public GameObject projectile;       
     private Transform player;
 
     public Player hero;
@@ -60,5 +63,22 @@ public class Water_Ghost_Script : MonoBehaviour
         //     timeBtwShots -= Time.deltaTime;
         // }
 
+    }
+
+    public void TakeDamage (int damage)
+    {
+        health -= damage;
+
+        if (health <= 0)
+        {
+            Die();
+        }
+    }
+
+    void Die ()
+    {
+        Instantiate(deathEffect,transform.position, Quaternion.identity);
+        // animator.SetTrigger("Death");
+        Destroy(gameObject);
     }
 }
