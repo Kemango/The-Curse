@@ -23,7 +23,12 @@ public class movement : MonoBehaviour
     public int currentMana;
 
     public GameObject knifePrefab;
-    public Transform firepoint;
+    public Transform firepoint;             //Skill
+
+    public Transform attackPoint;            //Basic Attack
+    public LayerMask enemyLayers;
+    public float attackRange;
+    public int damage;
 
     private void Start()
     {
@@ -63,8 +68,7 @@ public class movement : MonoBehaviour
 
     public void Attack_btn ()        //Basic Attack Button
     {
-        animator.SetTrigger("Attack");
-        return;
+        Attack();
     }
 
     public void Skill_btn ()        //Skill Button
@@ -98,5 +102,28 @@ public class movement : MonoBehaviour
 
         controller.Move(horizontalmove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
+    }
+
+    void Attack()
+    {
+        //Play an attack animation
+        animator.SetTrigger("Attack");
+
+        //Detect enemy in range of attack
+        Collider2D[] htiEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
+
+        //Damage them
+        foreach(Collider2D enemy in htiEnemies)
+        {
+            enemy.GetComponent<Water_Ghost_Script>().TakeDamage(damage/2); 
+        }
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        if (attackPoint == null)
+            return;
+
+        Gizmos.DrawWireSphere(attackPoint.position, attackRange);
     }
 }
