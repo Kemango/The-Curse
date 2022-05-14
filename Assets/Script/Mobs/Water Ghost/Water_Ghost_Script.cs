@@ -20,6 +20,8 @@ public class Water_Ghost_Script : MonoBehaviour
     public GameObject projectile;       
     private Transform player;
 
+    public Transform spawnPrefab;
+
     public Player hero;
 
     // Start is called before the first frame update
@@ -68,7 +70,7 @@ public class Water_Ghost_Script : MonoBehaviour
     public void TakeDamage (int damage)
     {
         health -= damage;
-
+        animator.SetTrigger("Damage");
         if (health <= 0)
         {
             Die();
@@ -81,4 +83,5 @@ public class Water_Ghost_Script : MonoBehaviour
         // animator.SetTrigger("Death");
         Destroy(gameObject);
     }
+    
 }
