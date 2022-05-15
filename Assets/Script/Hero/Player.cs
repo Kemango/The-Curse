@@ -16,6 +16,9 @@ public class Player : MonoBehaviour
     public int maxMana = 100;
     public int currentMana;
 
+    [SerializeField]
+	private GameObject gameOverUI;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +54,7 @@ public class Player : MonoBehaviour
 
         if(currentHealth <= 0){
             Death();
+            EndGame();
         }
     }
 
@@ -66,4 +70,9 @@ public class Player : MonoBehaviour
         rb.bodyType = RigidbodyType2D.Static;
     }
 
+	public void EndGame ()
+	{
+		Debug.Log("GAME OVER");
+		gameOverUI.SetActive(true);
+	}
 }
