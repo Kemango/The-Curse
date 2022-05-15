@@ -2004,8 +2004,8 @@ MonoBehaviour:
   enemyLayers:
     serializedVersion: 2
     m_Bits: 128
-  attackRange: 0.5
-  damage: 10
+  attackRange: 0.7
+  damage: 20
 --- !u!114 &1137853198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2095,7 +2095,7 @@ MonoBehaviour:
   - name: 3
     enemy: {fileID: 8113904488109935113, guid: 9a1469741ad64d44a81aefa29e279fe0, type: 3}
     count: 3
-    rate: 1.5
+    rate: 2
   - name: 4
     enemy: {fileID: 8113904488109935113, guid: 9a1469741ad64d44a81aefa29e279fe0, type: 3}
     count: 4
@@ -2104,10 +2104,14 @@ MonoBehaviour:
     enemy: {fileID: 8113904488109935113, guid: 9a1469741ad64d44a81aefa29e279fe0, type: 3}
     count: 5
     rate: 1.5
-  - name: 4
+  - name: 6
     enemy: {fileID: 8113904488109935113, guid: 9a1469741ad64d44a81aefa29e279fe0, type: 3}
     count: 6
     rate: 1.5
+  - name: 7
+    enemy: {fileID: 8113904488109935113, guid: 9a1469741ad64d44a81aefa29e279fe0, type: 3}
+    count: 6
+    rate: 1
   spawnPoints:
   - {fileID: 1261169065}
   - {fileID: 508654321}
