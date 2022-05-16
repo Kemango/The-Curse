@@ -66,6 +66,28 @@ public class movement : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter2D(Collider2D col){
+        if(col.CompareTag("Mana_Potions")){                    //If touches the ghost, u take 10 damaged
+            Regen(20);
+        }
+    }
+
+    void Regen (int MpRegen)
+    {
+        if(currentMana <= 80)
+        {
+            currentMana += MpRegen;
+            animator.SetFloat("Mp",Mathf.Abs(currentMana));
+            manaBar.SetMaxMana(currentMana);  
+        }
+        else
+        {
+            currentMana = 100;
+            manaBar.SetMaxMana(currentMana);
+        }
+
+    }
+
     public void Attack_btn ()        //Basic Attack Button
     {
         Attack();
