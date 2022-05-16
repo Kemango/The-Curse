@@ -22,7 +22,7 @@ Character will the controlled by player in the game <br>
 
 
 # Potions 
-All potions will have a 15% drop rate after killing a mob
+All potions will have a 10% drop rate after killing a mob
 - Heal Potion => Restores 20 Hp 
 
 ![Health_potion](https://user-images.githubusercontent.com/93504708/163419131-343559ec-45cf-43ab-ac08-5b4dbb9efe58.gif)
