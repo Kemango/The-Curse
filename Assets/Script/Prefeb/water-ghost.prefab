@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 8113904488109935116}
   - component: {fileID: 8113904488109935119}
   - component: {fileID: 8113904488109935118}
-  - component: {fileID: -6664339269282873014}
   m_Layer: 7
   m_Name: water-ghost
   m_TagString: ghost
@@ -129,16 +128,15 @@ MonoBehaviour:
   projectile: {fileID: 9210438264063109971, guid: 62150b5383f422245974b3c5fd6db764, type: 3}
   spawnPrefab: {fileID: 0}
   hero: {fileID: 844894178679682431, guid: 2d2e71af8fcc614439694a46b38fbc25, type: 3}
-  lootDrop: {fileID: 0}
   loots:
+  - item: {fileID: 427104125668702348, guid: 57785bb262b960045963986465f3fc72, type: 3}
+    dropRate: 15
+    minQuantity: 0
+    maxQuantity: 2
   - item: {fileID: 6586987881502164638, guid: 57f12508ae77fca40adcfd36cce6c435, type: 3}
-    dropRate: 10
-    minQuantity: 1
-    maxQuantity: 1
-  - item: {fileID: 621514163863862030, guid: 57785bb262b960045963986465f3fc72, type: 3}
-    dropRate: 10
-    minQuantity: 1
-    maxQuantity: 1
+    dropRate: 15
+    minQuantity: 0
+    maxQuantity: 2
 --- !u!58 &8113904488109935116
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -192,20 +190,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &-6664339269282873014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8113904488109935114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e81fe006ee46b2428143d28b2ec72d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  loots:
-  - item: {fileID: 84647462881244274, guid: 57f12508ae77fca40adcfd36cce6c435, type: 3}
-    dropRate: 100
-    minQuantity: 1
-    maxQuantity: 5
