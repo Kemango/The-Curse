@@ -15,4 +15,5 @@ public class MenuManager : MonoBehaviour
 		Debug.Log("WE QUIT THE GAME!");
 		Application.Quit();
 	}   
+ 
 }
