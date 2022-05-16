@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+
     public Animator animator;
     private Rigidbody2D rb;
 
@@ -31,6 +32,7 @@ public class Player : MonoBehaviour
         manaBar.SetMaxMana(maxMana);
 
         animator.SetFloat("Hp",Mathf.Abs(currentHealth));
+        animator.SetFloat("Mp",Mathf.Abs(currentMana));
     }
 
     // Update is called once per frame
@@ -52,6 +54,14 @@ public class Player : MonoBehaviour
             TakeDamage(10);
         }
 
+        if(col.CompareTag("Health_Potions")){                    //If touches the ghost, u take 10 damaged
+            Heal(20);
+        }
+
+        if(col.CompareTag("Mana_Potions")){                    //If touches the ghost, u take 10 damaged
+            Regen(20);
+        }
+
         if(currentHealth <= 0){
             Death();
             EndGame();
@@ -63,6 +73,38 @@ public class Player : MonoBehaviour
         currentHealth -= damage;
         animator.SetFloat("Hp",Mathf.Abs(currentHealth));
         healthBar.SetHealth(currentHealth);
+    }
+    
+    void Heal (int healing)
+    {
+        if(currentHealth <= 80)
+        {
+            currentHealth += healing;
+            animator.SetFloat("Hp",Mathf.Abs(currentHealth));
+            healthBar.SetHealth(currentHealth);  
+        }
+        else
+        {
+            currentHealth = 100;
+            healthBar.SetHealth(currentHealth);
+        }
+
+    }
+
+    void Regen (int MpRegen)
+    {
+        if(currentMana <= 80)
+        {
+            currentMana += MpRegen;
+            animator.SetFloat("Mp",Mathf.Abs(currentMana));
+            manaBar.SetMaxMana(currentMana);  
+        }
+        else
+        {
+            currentMana = 100;
+            manaBar.SetMaxMana(currentMana);
+        }
+
     }
 
     private void Death(){
