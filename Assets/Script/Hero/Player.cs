@@ -42,14 +42,14 @@ public class Player : MonoBehaviour
     // }
 
     void OnTriggerEnter2D(Collider2D col){
-        if(col.CompareTag("waterball")){                //If hit by the ghost, u take 20 damaged
+        if(col.CompareTag("waterball")){                //If hit by the ghost, u take 10 damaged
             animator.SetTrigger("Damaged");
-            TakeDamage(20);
+            TakeDamage(10);
         }
 
-        if(col.CompareTag("ghost")){                    //If touches the ghost, u take 20 damaged
+        if(col.CompareTag("ghost")){                    //If touches the ghost, u take 10 damaged
             animator.SetTrigger("Damaged");
-            TakeDamage(20);
+            TakeDamage(10);
         }
 
         if(currentHealth <= 0){

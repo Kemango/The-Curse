@@ -368,6 +368,7 @@ MonoBehaviour:
   healthBar: {fileID: 0}
   manaBar: {fileID: 0}
   maxHealth: 100
-  currentHealth: 80
+  currentHealth: 100
   maxMana: 100
   currentMana: 100
+  gameOverUI: {fileID: 0}

@@ -1994,7 +1994,7 @@ MonoBehaviour:
   animator: {fileID: 1137853193}
   jumpspeed: 25
   controller: {fileID: 1137853198}
-  jumpvelocity: 1.5
+  jumpvelocity: 1.9
   manaBar: {fileID: 1535954981}
   maxMana: 100
   currentMana: 100
