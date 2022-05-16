@@ -6,7 +6,7 @@ using UnityEngine;
 public class Loot
 {
     public GameObject item;
-    [Range(0.01f,100f)]
+    [Range(0f,100f)]
     public float dropRate;
     public int minQuantity;
     public int maxQuantity;
@@ -34,7 +34,7 @@ public class Water_Ghost_Script : MonoBehaviour
 
     public Player hero;
     
-    public GameObject lootDrop;
+    // public GameObject lootDrop;
     public Loot [] loots;
 
     // Start is called before the first frame update
@@ -90,6 +90,7 @@ public class Water_Ghost_Script : MonoBehaviour
         }
     }
 
+
     void Die ()
     {
         Instantiate(deathEffect,transform.position, Quaternion.identity);
@@ -98,7 +99,7 @@ public class Water_Ghost_Script : MonoBehaviour
         Destroy(gameObject);
 
         foreach (Loot loot in loots){
-            float spawnChance = Random.Range(-0.01f,100f);
+            float spawnChance = Random.Range(0f,100f);
             if(spawnChance <= loot.dropRate){
                 int spawnAmount = Random.Range(loot.minQuantity, loot.maxQuantity);
                 for (int i = 0; i < spawnAmount; i++){

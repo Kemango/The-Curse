@@ -28,11 +28,11 @@ public class Player : MonoBehaviour
 
         currentHealth = maxHealth; 
         healthBar.SetMaxHealth(maxHealth);
-        currentMana = maxMana; 
-        manaBar.SetMaxMana(maxMana);
+        // currentMana = maxMana; 
+        // manaBar.SetMaxMana(maxMana);
 
         animator.SetFloat("Hp",Mathf.Abs(currentHealth));
-        animator.SetFloat("Mp",Mathf.Abs(currentMana));
+        // animator.SetFloat("Mp",Mathf.Abs(currentMana));
     }
 
     // Update is called once per frame
@@ -56,10 +56,6 @@ public class Player : MonoBehaviour
 
         if(col.CompareTag("Health_Potions")){                    //If touches the ghost, u take 10 damaged
             Heal(20);
-        }
-
-        if(col.CompareTag("Mana_Potions")){                    //If touches the ghost, u take 10 damaged
-            Regen(20);
         }
 
         if(currentHealth <= 0){
@@ -90,23 +86,6 @@ public class Player : MonoBehaviour
         }
 
     }
-
-    void Regen (int MpRegen)
-    {
-        if(currentMana <= 80)
-        {
-            currentMana += MpRegen;
-            animator.SetFloat("Mp",Mathf.Abs(currentMana));
-            manaBar.SetMaxMana(currentMana);  
-        }
-        else
-        {
-            currentMana = 100;
-            manaBar.SetMaxMana(currentMana);
-        }
-
-    }
-
     private void Death(){
         animator.SetTrigger("Death");
         rb.bodyType = RigidbodyType2D.Static;

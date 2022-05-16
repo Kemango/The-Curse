@@ -128,6 +128,16 @@ MonoBehaviour:
   projectile: {fileID: 9210438264063109971, guid: 62150b5383f422245974b3c5fd6db764, type: 3}
   spawnPrefab: {fileID: 0}
   hero: {fileID: 0}
+  lootDrop: {fileID: 0}
+  loots:
+  - item: {fileID: 0}
+    dropRate: 0
+    minQuantity: 0
+    maxQuantity: 0
+  - item: {fileID: 0}
+    dropRate: 0
+    minQuantity: 0
+    maxQuantity: 0
 --- !u!58 &796038588530858546
 CircleCollider2D:
   m_ObjectHideFlags: 0

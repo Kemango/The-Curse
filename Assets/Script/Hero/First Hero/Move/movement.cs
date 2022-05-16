@@ -78,12 +78,12 @@ public class movement : MonoBehaviour
         {
             currentMana += MpRegen;
             animator.SetFloat("Mp",Mathf.Abs(currentMana));
-            manaBar.SetMaxMana(currentMana);  
+            manaBar.SetMana(currentMana);  
         }
         else
         {
             currentMana = 100;
-            manaBar.SetMaxMana(currentMana);
+            manaBar.SetMana(currentMana);
         }
 
     }
