@@ -49,10 +49,20 @@ public class Player : MonoBehaviour
             TakeDamage(10);
         }
 
+        if(col.CompareTag("electricball")){                //If hit by the ghost, u take 10 damaged
+            animator.SetTrigger("Damaged");
+            TakeDamage(30);
+        }
+
         if(col.CompareTag("ghost")){                    //If touches the ghost, u take 10 damaged
             animator.SetTrigger("Damaged");
             TakeDamage(10);
         }
+
+        if(col.CompareTag("el-ghost")){                    //If touches the ghost, u take 10 damaged
+            animator.SetTrigger("Damaged");
+            TakeDamage(30);
+        }        
 
         if(col.CompareTag("Health_Potions")){                    //If touches the ghost, u take 10 damaged
             Heal(20);

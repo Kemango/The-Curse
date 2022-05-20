@@ -17,11 +17,16 @@ public class Knife : MonoBehaviour
 
     void OnTriggerEnter2D (Collider2D hitInfo)
     {
-        Water_Ghost_Script enemy = hitInfo.GetComponent<Water_Ghost_Script>();
-        if(enemy != null)
+        Water_Ghost_Script enemy1 = hitInfo.GetComponent<Water_Ghost_Script>();
+        Lightning_Ghost_Script enemy2 = hitInfo.GetComponent<Lightning_Ghost_Script>();
+        if(enemy1 != null)
         {
-            enemy.TakeDamage(damage);
+            enemy1.TakeDamage(damage);
         }
+        if(enemy2 != null)
+        {
+            enemy2.TakeDamage(damage);
+        }        
         Destroy(gameObject);
     }
 }
