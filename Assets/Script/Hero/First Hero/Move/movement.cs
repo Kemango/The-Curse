@@ -135,9 +135,16 @@ public class movement : MonoBehaviour
         Collider2D[] htiEnemies = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, enemyLayers);
 
         //Damage them
+        
         foreach(Collider2D enemy in htiEnemies)
         {
-            enemy.GetComponent<Water_Ghost_Script>().TakeDamage(damage/2); 
+            // enemy.GetComponent<Lightning_Ghost_Script>().TakeDamage(damage/2); 
+            // enemy.GetComponent<Water_Ghost_Script>().TakeDamage(damage/2); 
+
+            if(enemy.GetComponent<Lightning_Ghost_Script>() != null)
+                {enemy.GetComponent<Lightning_Ghost_Script>().TakeDamage(damage);}
+            else if(enemy.GetComponent<Water_Ghost_Script>() != null)
+                {enemy.GetComponent<Water_Ghost_Script>().TakeDamage(damage);}
         }
     }
 
