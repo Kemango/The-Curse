@@ -62,7 +62,12 @@ public class Player : MonoBehaviour
         if(col.CompareTag("el-ghost")){                    //If touches the ghost, u take 10 damaged
             animator.SetTrigger("Damaged");
             TakeDamage(30);
-        }        
+        }    
+        
+        if(col.CompareTag("fi-ghost")){                    //If touches the ghost, u take 10 damaged
+            animator.SetTrigger("Damaged");
+            TakeDamage(10);
+        }       
 
         if(col.CompareTag("Health_Potions")){                    //If touches the ghost, u take 10 damaged
             Heal(20);

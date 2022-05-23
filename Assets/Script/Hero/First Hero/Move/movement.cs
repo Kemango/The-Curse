@@ -145,6 +145,8 @@ public class movement : MonoBehaviour
                 {enemy.GetComponent<Lightning_Ghost_Script>().TakeDamage(damage);}
             else if(enemy.GetComponent<Water_Ghost_Script>() != null)
                 {enemy.GetComponent<Water_Ghost_Script>().TakeDamage(damage);}
+            else if(enemy.GetComponent<Fire_Ghost_Script>() != null)
+                {enemy.GetComponent<Fire_Ghost_Script>().TakeDamage(damage);}
         }
     }
 
