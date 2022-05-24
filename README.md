@@ -42,8 +42,9 @@ As the player survives each wave, different mobs will start to spawn.
 ![water-ghost-death](https://user-images.githubusercontent.com/93504708/163432620-b9f5b1be-66b4-4642-8de4-0c2bc0d9ef09.gif)
 
 - Fire Ghost
-  - Flies directly to the player and deals 15 dmg once it touches the player
-  - Normal Speed, Medium Hp (40 HP)
+  - Flies directly to the player and deals 50 explosive dmg once it touches the player
+  - Long Charge Attack (5s)
+  - Slow Speed, Low Hp (20 HP)
 
 ![fire-ghost-idle](https://user-images.githubusercontent.com/93504708/163426311-e577deb9-72d7-4b7c-96cb-3aec25246d34.gif)
 ![fire-ghost-death](https://user-images.githubusercontent.com/93504708/163432149-782f9c7d-c3ea-4825-8116-c76213241b60.gif)
