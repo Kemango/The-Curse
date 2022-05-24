@@ -55,7 +55,7 @@ public class Lightning_Ghost_Script : MonoBehaviour
 
 // Emeny will shoot if the hero's Hp is more than 0
 // Ememy will shoot every few sec when it reaches the shooting range
-        if(timeBtwShots <= 0 && Vector2.Distance(transform.position, player.position) < stoppingDistance && hero.currentHealth > 0){
+       else if(timeBtwShots <= 0 && Vector2.Distance(transform.position, player.position) < stoppingDistance && hero.currentHealth > 0){
             animator.SetTrigger("Attack");            
             Instantiate(projectile, transform.position, Quaternion.identity);
             timeBtwShots = startTimeBtwShots;

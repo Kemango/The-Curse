@@ -13,8 +13,10 @@ public class wave_spawner : MonoBehaviour
 		public string name;
 		public Transform enemy1;
 		public Transform enemy2;
+		public Transform enemy3;
 		public int count_en1;
 		public int count_en2;
+		public int count_en3;
 		public float rate;
 	}
 
@@ -103,7 +105,7 @@ public class wave_spawner : MonoBehaviour
 		if (searchCountdown <= 0f)
 		{
 			searchCountdown = 1f;
-			if (GameObject.FindGameObjectWithTag("ghost") == null & GameObject.FindGameObjectWithTag("el-ghost") == null)
+			if (GameObject.FindGameObjectWithTag("ghost") == null & GameObject.FindGameObjectWithTag("el-ghost") == null & GameObject.FindGameObjectWithTag("fi-ghost") == null)
 			{
 				return false;
 			}
@@ -127,6 +129,12 @@ public class wave_spawner : MonoBehaviour
 			SpawnEnemy(_wave.enemy2);
 			yield return new WaitForSeconds( 1f/_wave.rate );
 		}
+
+		for (int i = 0; i < _wave.count_en3; i++)
+		{
+			SpawnEnemy(_wave.enemy3);
+			yield return new WaitForSeconds( 1f/_wave.rate );
+		}		
 
 		state = SpawnState.WAITING;
 
