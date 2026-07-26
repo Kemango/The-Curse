@@ -1,4 +1,0 @@
-#Sun Jul 26 23:53:49 SGT 2026
-base.0=/Users/guokeming/Documents/GitHub/The-Curse/Temp/gradleOut/launcher/build/intermediates/dex/release/mergeDexRelease/classes.dex
-path.0=classes.dex
-renamed.0=classes.dex
