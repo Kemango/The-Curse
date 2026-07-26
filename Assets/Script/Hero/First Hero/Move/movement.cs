@@ -45,7 +45,7 @@ public class movement : MonoBehaviour
 
         animator.SetFloat("Speed",Mathf.Abs(horizontalmove));
 
-        rb.velocity = new Vector2(x * speed, rb.velocity.y);
+        rb.velocity = new Vector2(x, rb.velocity.y);
         float verticalmove = mj.Vertical * jumpspeed;
         if (verticalmove >= 7f)
         {

@@ -46,12 +46,6 @@ public class Lightning_Ghost_Script : MonoBehaviour
             animator.SetFloat("Speed",distance);
             animator.ResetTrigger("Attack"); 
         }
-        else if (Vector2.Distance(transform.position, player.position) < stoppingDistance && Vector2.Distance(transform.position, player.position) > stoppingDistance){
-    //    else if (Vector2.Distance(transform.position, player.position) < stoppingDistance){
-            transform.position = this.transform.position;
-            float distance = Vector3.Distance(player.position, transform.position);
-            animator.SetFloat("Speed",distance);
-        }
 
 // Emeny will shoot if the hero's Hp is more than 0
 // Ememy will shoot every few sec when it reaches the shooting range

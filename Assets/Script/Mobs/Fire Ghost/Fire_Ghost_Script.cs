@@ -47,12 +47,6 @@ public class Fire_Ghost_Script : MonoBehaviour
             animator.SetFloat("Speed",distance);
             animator.ResetTrigger("Attack"); 
         }
-        else if (Vector2.Distance(transform.position, player.position) < stoppingDistance && Vector2.Distance(transform.position, player.position) > stoppingDistance){
-    //    else if (Vector2.Distance(transform.position, player.position) < stoppingDistance){
-            transform.position = this.transform.position;
-            float distance = Vector3.Distance(player.position, transform.position);
-            animator.SetFloat("Speed",distance);
-        }
         else if(Vector2.Distance(transform.position, player.position) > stoppingDistance && stoppingDistance < 2){
             transform.position = Vector2.MoveTowards(transform.position, player.position, chargespeed * Time.deltaTime);
             float distance = Vector3.Distance(player.position, transform.position);

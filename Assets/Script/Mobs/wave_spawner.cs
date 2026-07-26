@@ -105,7 +105,7 @@ public class wave_spawner : MonoBehaviour
 		if (searchCountdown <= 0f)
 		{
 			searchCountdown = 1f;
-			if (GameObject.FindGameObjectWithTag("ghost") == null & GameObject.FindGameObjectWithTag("el-ghost") == null & GameObject.FindGameObjectWithTag("fi-ghost") == null)
+			if (GameObject.FindGameObjectWithTag("ghost") == null && GameObject.FindGameObjectWithTag("el-ghost") == null && GameObject.FindGameObjectWithTag("fi-ghost") == null)
 			{
 				return false;
 			}
