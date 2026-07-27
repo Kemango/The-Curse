@@ -5,14 +5,16 @@ using UnityEngine;
 public class movement : MonoBehaviour
 {
     Rigidbody2D rb;
+    Transform groundCheck;
     public float speed;
     public Joystick mj;
     public Animator animator;
     public float jumpspeed;
     public CharacterController2D controller;
+    public float jumpHeight = 2.5f;          // how high the jump reaches, in world units (tune this)
+    public float gravityScale = 3f;          // higher = snappier, grounded feel (0.7 was very floaty)
     bool jump = false;
-    float horizontalmove;
-    float x;
+    bool jumpHeld = false;
     bool crouch = false;
     [Range(1, 10)]
     public float jumpvelocity;
@@ -33,37 +35,47 @@ public class movement : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        rb.gravityScale = gravityScale;            // force a snappy gravity regardless of the prefab value
+        groundCheck = transform.Find("Bottom");    // the foot-point child the controller also uses
 
-        currentMana = maxMana; 
+        currentMana = maxMana;
         manaBar.SetMaxMana(maxMana);
     }
 
     // Update is called once per frame
     private void Update()
     {
-        horizontalmove = x = mj.Horizontal * speed;
+        // Drive the run animation from how hard the stick is pushed sideways
+        animator.SetFloat("Speed", Mathf.Abs(mj.Horizontal * speed));
 
-        animator.SetFloat("Speed",Mathf.Abs(horizontalmove));
+        // Jump on the rising edge of pushing up (must release before jumping again -> no auto bunny-hop)
+        if (mj.Vertical > 0.5f)
+        {
+            if (!jumpHeld)
+                jump = true;
+            jumpHeld = true;
+        }
+        else if (mj.Vertical < 0.3f)
+        {
+            jumpHeld = false;
+        }
 
-        rb.velocity = new Vector2(x, rb.velocity.y);
-        float verticalmove = mj.Vertical * jumpspeed;
-        if (verticalmove >= 7f)
-        {
-            jump = true;
-            //GetComponent<Rigidbody2D>().velocity = Vector2.up * jumpvelocity;   
-        }
-        if (verticalmove > -1f)
-        {
-            crouch = false;
-        }
-        else if (verticalmove < -4.5f)
-        {
-            crouch = true;
-        }
-        if (verticalmove >= 0f)
-        {
-            crouch = false;
-        }
+        // Crouch only while the stick is clearly held down
+        crouch = mj.Vertical < -0.6f;
+    }
+
+    // Keep the player inside the visible screen so they can't wander off the edge on any aspect ratio.
+    void LateUpdate()
+    {
+        Camera cam = Camera.main;
+        if (cam == null || !cam.orthographic)
+            return;
+
+        float halfW = cam.orthographicSize * cam.aspect - 0.5f;   // 0.5 ~= player half-width margin
+        float camX = cam.transform.position.x;
+        Vector3 p = transform.position;
+        p.x = Mathf.Clamp(p.x, camX - halfW, camX + halfW);
+        transform.position = p;
     }
 
     void OnTriggerEnter2D(Collider2D col){
@@ -121,9 +133,36 @@ public class movement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        // Horizontal + crouch + facing are handled by the controller; we pass jump=false and do
+        // the jump ourselves below so it doesn't depend on the controller's ground layer mask.
+        controller.Move(mj.Horizontal * speed * 0.1f, crouch, false);
 
-        controller.Move(horizontalmove * Time.fixedDeltaTime, crouch, jump);
+        // Reliable, layer-independent jump: if the stick was flicked up and we're standing on
+        // something solid, launch straight up.
+        if (jump && IsGrounded())
+        {
+            // Launch at exactly the speed needed to reach jumpHeight for a clean, predictable arc: v = sqrt(2*g*h)
+            float g = Physics2D.gravity.magnitude * rb.gravityScale;
+            rb.velocity = new Vector2(rb.velocity.x, Mathf.Sqrt(2f * g * jumpHeight));
+        }
         jump = false;
+    }
+
+    // Detects any solid (non-trigger) collider directly beneath the player's feet, regardless of
+    // its layer. Robust against the ground-layer mask being misconfigured.
+    bool IsGrounded()
+    {
+        if (groundCheck == null)
+            return false;
+
+        // Any solid (non-trigger) collider overlapping the feet counts as ground, on any layer.
+        Collider2D[] cols = Physics2D.OverlapCircleAll(groundCheck.position, 0.25f);
+        foreach (Collider2D c in cols)
+        {
+            if (c != null && !c.isTrigger && c.gameObject != gameObject)
+                return true;
+        }
+        return false;
     }
 
     void Attack()
